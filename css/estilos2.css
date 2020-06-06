@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+
+body{
+   background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+   padding: 20px; 
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.ctn-form{
+ width: 80%;
+ padding: 80px;
+ background: #f7f7f7;
+ }
+
+ .logo{
+     width: 150px;
+     display: block;
+     margin: auto;
+ }
+
+ .title{
+     text-align: center;
+     margin-top: 20px;
+     font-weight: 300;
+     color: black;
+ }
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type=email]{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    color: black;
+    border: 0px;
+    background: linear-gradient(90deg,burlywood,blue);
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ctn-text{
+    width: 100%;
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.title-description{
+    position: relative;
+    top: 80px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-description{
+    position: relative;
+    top: 190px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.redes89{
+    color: black;
+   text-align: center;
+   margin-left: -540px;
+ margin-top: -25px;   
+}
+
+.redes90{
+    color: black;
+    list-style: none;
+    font-weight: 50px;
+}
+
+
